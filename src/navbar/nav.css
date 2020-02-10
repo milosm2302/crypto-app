@@ -1,0 +1,275 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+nav .pc{
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+ 
+}
+.top{
+  background-color: #041d52fd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.topLogo{
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.topBar{
+  background-color: #4fa8d1;
+  padding: 5px 0;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+ 
+
+}
+.topBar ul {
+  width: 650px;
+}
+.socialLogo{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  width:200px;
+}
+.socialLogo img{
+  height: 30px;
+  width: 30px;
+}
+img{
+  color: white;
+  height: 60px;
+  margin: 0 5px;
+}
+.logo{
+  color:white;
+}
+.contactMail{
+  display: flex;
+  height: 40px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+}
+.contactMail h4{
+  padding: 5px 10px;
+  color:white
+  
+}
+.svg-inline--fa {
+padding-left: 5px;
+  height: 1.3em;
+}
+
+.topBar ul{
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: -webkit-sticky;
+  padding: 3px;
+  text-align: center;
+}
+.topBar ul :hover, .logo:hover{
+  cursor: pointer;
+  color:white;
+}
+
+
+  .crcont{
+   
+    display:flex;
+    justify-content: space-around;
+    height: 36px;
+    width: 700px;
+    background-color: white;
+    align-items: center;
+    box-shadow:-1px -1px 5px lightgrey,
+    1px 1px 5px #200000;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+  }
+  .cryptoCl{
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    
+  
+    
+   
+  }
+  .cryptoCl li{
+    width:150px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: forestgreen;
+    text-align: center;
+  padding:0 20px;
+  }
+  .cryptoCl img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  .mobileNav{
+    display: none;
+  }
+  .cryptoCl{
+    animation: animate 15s linear infinite;
+    white-space: nowrap;
+ 
+    
+  }
+
+  @keyframes animate {
+    0%
+    {
+      transform:translateX(250%);
+     
+    }
+   
+    100%{
+      transform: translateX(-250%);
+    
+    }
+  }
+
+  
+
+  .topMobile{
+    display: none;
+  }
+
+
+
+  
+/*form*/
+.followUs{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: rgb(51, 48, 48);
+  position: relative;
+  flex-wrap: wrap;
+
+}
+.followLogo{
+  background-color: black;
+  text-align: center;
+  width: 14rem;
+  height: 10rem;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.followLogo img{
+  height: 100px;
+}
+.followLogo h2{
+  color:white;
+  padding-bottom:20px;
+}
+.followSoc{
+  display: flex;
+  justify-content:space-around;
+  background-color: whitesmoke;
+  width: 18rem;
+  height: 10rem;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.followSocImg{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+.followSoc img{
+ height: 40px;
+ width: 40px;
+ padding: 1px;
+ margin: 0;
+
+}
+.contactForm{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:column ;
+  margin: 20px 0;
+}
+.contactForm h2{
+  color: yellow;
+}
+input{
+width: 18rem;
+height: 1.5rem;
+}
+textarea{
+  margin : 10px 0;
+  width: 18rem;
+  height: 10rem;
+  overflow-y: scroll;
+  resize: none;
+}
+button{
+  margin : 10px 0;
+ border:1px  solid  rgb(0, 55, 71);
+ background-color:rgb(36, 184, 253);
+ 
+  padding: 10px 15px;
+  color:white;
+  font-weight: bolder;
+}
+.disc{
+  height: 50px;
+  width: 400px;
+  position: absolute;
+  bottom: 20px;
+ 
+  background-color: rgb(0, 55, 71);
+  border:1px solid rgb(36, 184, 253);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.disc h3{
+  color:white;
+  font-size: bolder;
+  z-index: 4;
+  margin-left:15px ;
+}
+.svg-inline--fa.fa-w-16 path{
+ color: white;
+ width:40px;
+}

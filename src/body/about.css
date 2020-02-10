@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    flex-direction: column;
+   padding: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.aboutTop, .aboutBtm{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutTxt{
+
+  
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+}
+.aboutTxt p{
+    padding-top:60px;
+    line-height: 2;
+    text-align: left;
+}
+.aboutImg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.aboutImg img{
+   height: 250px;
+   
+  
+}
+.green{
+    color:#50cc98;
+}

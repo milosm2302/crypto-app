@@ -1,0 +1,55 @@
+.gems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-width: 90vw;
+    margin:0 auto;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #4fa8d1;
+}
+.gems h3, .gems h2{
+    color:#4ac746;
+}
+.head{
+    
+    width: 80%;
+
+}
+.head h2{
+   margin-bottom: 20px;
+   text-align: center;
+}
+.head p{
+    
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+ }
+.gemHolder{
+    display: flex;
+    padding:50px 0;
+    flex-wrap: wrap;
+    min-width: 70vw;
+    justify-content: space-around;
+    
+}
+.gemHolder h3{
+    text-align: center;
+    margin: 20px;
+}
+.gemHolder p {
+    padding: 20px;
+    line-height: 1.5;
+}
+.gem{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
