@@ -1,11 +1,12 @@
 .about{
     display: flex;
+    width: 80vw;
+    margin:0 auto;
     flex-direction: column;
-   padding: 50px 0;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    
 }
 .aboutTop, .aboutBtm{
     padding: 50px 0;
@@ -38,10 +39,18 @@
    
 }
 .aboutImg img{
-   height: 250px;
-   
-  
+   width: 100%;
+   height: auto;
+}
+.circle-img{
+    width: 40%;
+    height: auto;
+   text-align: center;
+}
+.circle-img img{
+   width: 80%;
+   height: auto;
 }
 .green{
-    color:#50cc98;
+    color:#2DB88E;
 }

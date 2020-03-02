@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './ourTeam.css';
 import Twitter from '../media/services/twitter service.jpg';
 import Discord from '../media/socials/dis.gif';
-import Avatar from '../media/photos/avatar.jpg';
+import Nemanja from '../media/photos/Nemanja.gif';
+import Vasilije from '../media/photos/Vasilije.gif';
+import Filip from '../media/photos/Filip.gif';
 
 class Team extends Component {
     render(){
@@ -18,15 +20,19 @@ class Team extends Component {
                 <div className="person">
                     <div className="profile">
                         <div className="image">
-                            <img src={Avatar} alt=""/>
-                            <h2>Milos</h2>
+                            <img src={Nemanja} alt=""/>
+                            
                         </div>
+                        <div class="profile-text">
+                            <h4>Nemanja, CEO</h4>
+                        </div>
+                        
                     <div className="contact">
                         <div className="discordImg">
-                            <img src={Discord} alt=""/><h3>#milosm2302</h3>
+                            <img src={Discord} alt=""/><h4>#Sindjica</h4>
                         </div>
                         <div className="twit">
-                        <img src={Twitter} alt=""/><h3>#milosm2302</h3>
+                        <img src={Twitter} alt=""/><h4>#Sindjica</h4>
                          </div>
                      </div>
                      </div> 
@@ -35,16 +41,19 @@ class Team extends Component {
             
                 <div className="profile">
                     <div className="image">
-                        <img src={Avatar} alt=""/>
-                        <h2>Milos</h2>
+                        <img src={Vasilije} alt=""/>
+                       
+                    </div>
+                    <div class="profile-text">
+                        <h4>Vasilije, Co-Owner</h4>
                     </div>
                     
                     <div className="contact">
                          <div className="discordImg">
-                            <img src={Discord} alt=""/><h3>#milosm2302</h3>
+                            <img src={Discord} alt=""/><h4>#BlackSkull</h4>
                         </div>
                         <div className="twit">
-                                <img src={Twitter} alt=""/><h3>#milosm2302</h3>
+                                <img src={Twitter} alt=""/><h4>#BlackSkull</h4>
                         </div>
                      </div>
                      
@@ -52,15 +61,18 @@ class Team extends Component {
             
                 <div className="profile">
                     <div className="image">
-                        <img src={Avatar} alt=""/>
-                        <h2>Milos</h2>
+                        <img src={Filip} alt=""/>
+                       
+                    </div>
+                    <div class="profile-text">
+                        <h4>Phillip, Community & Business Manager</h4>
                     </div>
                     <div className="contact">
                          <div className="discordImg">
-                            <img src={Discord}  alt=""/> <h3>#milosm2302</h3>
+                            <img src={Discord}  alt=""/> <h4>#Zagu</h4>
                         </div>
                         <div className="twit">
-                        <img src={Twitter} alt=""/> <h3>#milosm2302</h3>
+                        <img src={Twitter} alt=""/> <h4>#Zagu</h4>
                         </div>
                      </div>
                 </div>     

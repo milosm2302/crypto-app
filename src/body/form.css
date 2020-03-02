@@ -1,0 +1,112 @@
+/*form*/
+.followUs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #2c3848ee;
+    position: relative;
+    flex-wrap: wrap;
+  
+  
+  }
+  .followLogo{
+    background-color: black;
+    text-align: center;
+    width: 14rem;
+    height: 10rem;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+  }
+  .followLogo img{
+    height: 100px;
+  }
+  .followLogo>h2{
+    color:white;
+    padding-bottom:20px;
+  }
+  .followSoc{
+    display: flex;
+    justify-content:space-around;
+    background-color: whitesmoke;
+    width: 18rem;
+    height: 10rem;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  .followSocImg{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+  .followSoc img{
+   height: 40px;
+   width: 40px;
+   padding: 1px;
+   margin: 0;
+  
+  }
+  .contactForm{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    margin: 10px 0;
+  }
+  .contactForm h2{
+    color:#f7de1c; 
+  }
+  input{
+  width: 18rem;
+  height: 1.5rem;
+  border-radius: 3px;
+  border: none;
+  }
+  textarea{
+    width: 18rem;
+    height: 10rem;
+    resize: none;
+    border-radius: 3px;
+  }
+  button{
+    margin : 10px 0;
+   border:1px  solid  rgb(0, 55, 71);
+   background-color:#54ACE4;
+   border-radius: 3px;
+    padding: 10px 15px;
+    color:white;
+    font-weight: bolder;
+  }
+  .disc{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    border-radius: 3px;
+    background-color: #086972;
+    border:1px solid #54ACE4;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .disc h3{
+    color:white;
+    font-size: bolder;
+    z-index: 4;
+    margin-left:15px ;
+  }
+  .svg-inline--fa.fa-w-16 path{
+   color: white;
+   width:40px;
+  }

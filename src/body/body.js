@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Banner from './banner';
 import About from './about';
 import Partners from './partners';
 import Clients from './clients';
@@ -12,16 +11,13 @@ import Gems from './gems.js';
 class Body extends Component{
  render(){
 return(
-    <div>
-        <Banner />
+    <div>  
         <About />
         <Services />
         <Partners/>
         <Clients/>
         <Gems />
-        <Team />
-      
-        
+        <Team />   
     </div>
 
 );

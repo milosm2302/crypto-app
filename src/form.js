@@ -1,5 +1,6 @@
 import React,{Component } from 'react';
 import './navbar/nav.css';
+import '../src/body/form.css';
 import Logo from './media/photos/logo.gif';
 import Instagram from './media/socials/instagram.png';
 import Twitter from './media/socials/twitter.jpg';
@@ -58,7 +59,6 @@ render() {
  </div>
       
       <div className='contactForm' id="form"> 
-      <form data-netlify="true">
           <h2> Apply to become our client </h2>
           <br />
          
@@ -72,7 +72,7 @@ render() {
             onChange={e => this.setState({ email: { ...email, sender: e.target.value } })} />
           <br/>
           <button onClick={this.sendEmail} > SEND REQUEST </button>
-          </form> 
+
       </div> 
       
    </div>

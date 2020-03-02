@@ -19,7 +19,9 @@ import Pacglobal from '../media/clientsLogo/pacglobal.jpg';
 import Primexbt from '../media/clientsLogo/primexbt.png';
 import Scn from '../media/clientsLogo/SCN.jpg';
 import Stakecube from '../media/clientsLogo/stakecube.png';
-import Trans from '../media/clientsLogo/transcendencelogo.png'
+import Trans from '../media/clientsLogo/transcendencelogo.png';
+import Additional_1 from '../media/clientsLogo/additional_1.png';
+import Additional_2 from '../media/clientsLogo/additional_2.png';
 
 
 
@@ -52,6 +54,8 @@ class Clients extends Component {
                 <img src={Scn} alt=""/>
                 <img src={Stakecube} alt=""/>
                 <img src={Trans} alt=""/>
+                <img src={Additional_1} alt=""/>
+                <img src={Additional_2} alt=""/>
                 </div>
             </div>      
     );

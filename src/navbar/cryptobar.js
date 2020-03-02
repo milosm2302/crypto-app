@@ -40,7 +40,18 @@ class Crypto extends Component {
        
        render(){
       
-      
+        const settings =  {
+          arrows: false,
+          arrowsBlock: false,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          centerMode: true,
+          centerPadding: 200,
+          duration: 400,
+          slidesToShow: 3,
+          wheel: true,
+          wheelScroll: 3
+        };
      
         
        return(
@@ -48,16 +59,16 @@ class Crypto extends Component {
              <div className='crcont'>
             
             {Object.keys(this.state.cryptos).map((key)=>(
-             
+          
               <div className="cryptoCl">
        <li><img src={`https://www.cryptocompare.com/` + this.state.cryptos[key].USD.IMAGEURL} alt=""/> {key} -{this.state.cryptos[key].USD.PRICE}</li>     
        
               </div>
-              
+     
             ))}
-          
+           
             </div>
-         
+           
            );
      }
    }

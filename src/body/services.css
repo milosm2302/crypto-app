@@ -1,11 +1,12 @@
 .services{
-    width:90vw;
+    width:80vw;
     margin:0 auto;
     font-family: 'Roboto', sans-serif;
+    
 }
 .services h1{
     
-    color:#4ac746;
+    color:#2DB88E;
 }
 .header{
     text-align: center;
@@ -15,40 +16,52 @@
 .header p{
   
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     margin: 50px auto;
     line-height: 1.5;
 }
 .socials{
     display:grid;
-    width:85vw;
-    gap:25px;
-   margin: 0 auto;
+    width:80vw;
+    gap:50px;
+    margin: 0 auto;
     background-color: rgba(48, 0, 0, 0);
-    grid-template-columns: repeat(12 1fr);
-    grid-template-rows: repeat(12 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas:
-                        "c c c c c t t t t t t t"
-                        "c c c c c t t t t t t t"
-                        "c c c c c t t t t t t t"
-                        "c c c c c t t t t t t t"
-                        "w w w w i i i i d d d d"
-                        "w w w w i i i i d d d d"
-                        "te te te te s s s s y y di di"  
-                        "te te te te s s s s y y di di"                                     
-                        "te te te te s s s s y y di di"
-                        "b b b b tr tr tr tr tra tra tra tra"
-                        "b b b b tr tr tr tr tra tra tra tra"
-                        "b b b b tr tr tr tr tra tra tra tra"
+    
+    "b b b b b c c c c c c c"
+    "di di di di di di d d d d d d"
+    "i i i i i i i y y y y y"
+    "te te te te te te te s s s s s"
+    "w w w w w tr tr tr tr tra tra tra"
+    " t t t t t t t t t t t t";
+
 }
 .community{
     grid-area:c;
    
     
 }
+.socials-header{
+    text-align: center;
+ 
+}
+.no-img{
+    padding-top: 20px;
+}
+.socials-text{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 .twitter{
     grid-area: t;
+    position: relative;
 
+}
+.modal{
+    position: absolute;
 }
 .dis{
     grid-area: d;
@@ -95,27 +108,69 @@ grid-area: i;
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: space-around;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow:-5px -5px 2px rgba(241, 243, 240, 0.932),
-    1px 5px 10px rgba(32, 41, 34, 0.582);
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow:-1px -1px 5px rgba(241, 243, 240, 0.651),
+    1px 1px 5px rgba(32, 41, 34, 0.342);
    
     
 }
-.socials h2{
+.socials h3{
     text-align:center;
     padding-bottom: 15px;
 }
 
 .socials img{
-    min-width: 50px;
-    min-height: 50px;
+    height:3rem;
     padding: 15px;
    
 }
 .socials p{
     padding: 5px 5px 15px 5px;
-    line-height: 1.5;
+    line-height: 2;
+    text-align: left;}
   
+.socials-text ul li{
+    color: #54ACE4;
 }
+.socials-text ul li a{
+   text-decoration: none;
+   
+   color: #54ACE4;
+   
+}.socials-text ul li a:active{
+    color: #2DB88E;
+}
+.socials-text ul li a:hover{
+    color: #2DB88E;
+    text-decoration: none;
+} 
+.span-link{
+    position: relative;
+    color: #54ACE4;
+    cursor: pointer;
+}
+.modal-open{
+    display: block;
+    height: 300px;
+    width: 200px;
+    z-index: 50;
+    position: absolute;
+    bottom: 20px;
+    left:-130px;
+    right: -100px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 63% 88%, 75% 100%, 48% 88%, 1% 88%);
+
+ 
+}
+.modal{
+    position: absolute;
+    display: none;
+    height: 2px;
+    width: 400px;
+}
+
+

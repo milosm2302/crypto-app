@@ -19,8 +19,8 @@ class About extends Component{
                             Got an idea for a new Cryptocurrency? - We are here to help you execute it!</p>
 
                     </div>
-                    <div className="aboutImg">
-                        <img src={AboutCircle} alt=""/>
+                    <div className="circle-img">
+                        <img src={AboutCircle} alt=""  />
                     </div>
                 </div>
                     <div className="aboutBtm">

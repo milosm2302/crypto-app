@@ -5,13 +5,13 @@
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
-    min-width: 90vw;
+    width: 80vw;
     margin:0 auto;
     flex-wrap: wrap;
-    border-bottom: 5px solid #4fa8d1;
+    border-bottom: 5px solid #54ACE4;
 }
 .gems h3, .gems h2{
-    color:#4ac746;
+    color:#2DB88E;
 }
 .head{
     

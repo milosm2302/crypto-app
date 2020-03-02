@@ -21,7 +21,7 @@ class Partners extends Component{
     return(
             <div className="partners" id='partners'>
                 <h1>Our Partners</h1>
-                <h3>MEET ALL THE BENEFITS OF BECOMING OUR CLIENT</h3>
+                <h3>MEET ALL THE BENEFITS OF BECOMING OUR PARTNERS</h3>
                 <div className="images">
                    <img src={Blastxlogo} alt=""/>
                    <img src={Crex24} alt=""/>

@@ -4,6 +4,7 @@ import Navbar from './navbar/nav';
 import Body from './body/body';
 import Form from './form';
 import NavPhone from './navbar/navPhone';
+import Banner from './body/banner';
 
 import './mediaPhone.css';
 
@@ -23,10 +24,17 @@ class App extends Component {
     return(
     
       <div>
-         <Navbar />  
-         <NavPhone />
-         <Body />   
-         <Form /> 
+        <header> 
+          <Navbar />  
+          <NavPhone />
+          <Banner />
+         </header>
+         <main>
+          <Body />
+        </main>   
+         <footer>
+          <Form /> 
+         </footer>
       </div>
    
         );
