@@ -26,15 +26,14 @@
     gap:50px;
     margin: 0 auto;
     background-color: rgba(48, 0, 0, 0);
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas:
     
-    "b b b b b c c c c c c c"
-    "di di di di di di d d d d d d"
-    "i i i i i i i y y y y y"
-    "te te te te te te te s s s s s"
-    "w w w w w tr tr tr tr tra tra tra"
-    " t t t t t t t t t t t t";
+    "b c c c"
+    "di di d d"
+    "i i y y"
+    "te te s s"
+    "w tr tr tra"
+    "t t t t";
 
 }
 .community{
@@ -64,11 +63,11 @@
     position: absolute;
 }
 .dis{
-    grid-area: d;
+  grid-area: d;
 
 }
 .telegram{
-    grid-area:te;
+    grid-area:te; 
   
 }
 .instagram{
@@ -101,7 +100,7 @@ grid-area: i;
    
 }
 .tracking{
-    grid-area: tra;
+   grid-area: tra;
    
 }
 .community, .twitter, .dis, .telegram, .instagram, .website, .bitcoin, .steemit, .youtube, .digital, .tradition, .tracking{

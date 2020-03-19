@@ -31,7 +31,7 @@ class Clients extends Component {
     return(
             <div className="clients" id='cl'>
                 <h1>Our Clients</h1>
-               <h2>Meet All the benefits of becoming a Crypto Corner Client</h2>
+               <h3>Meet All the benefits of becoming a Crypto Corner Client</h3>
                <h4>Once you buy our services, you will get the special discount on listing fees on numerous Exchanges, Masternode Hostings & Pools, Platforms.</h4>
                 <div className="images clinets-img">
                 <img src={Aaaa} alt=""/>

@@ -41,10 +41,12 @@ nav .pc{
   align-items: center;
   justify-content:flex-start;
   width:200px;
+  height: 100%;
 }
-.socialLogo>img{
-  height: 30px;
-  width: 30px;
+.socialLogo img{
+  height: 35px;
+  width: 35px;
+ 
 }
 img{
   color: white;
@@ -95,7 +97,7 @@ padding-left: 5px;
    
     display:flex;
     justify-content: space-around;
-    height: 36px;
+    height: 30px;
     width: 700px;
     background-color: white;
     align-items: center;
@@ -104,28 +106,28 @@ padding-left: 5px;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    white-space: nowrap;
+    
+    
    
   }
   .cryptoCl{
-    width:150px;
+    width:300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
-    
-  
-    
+    margin:0 15px;
    
   }
-  .cryptoCl li{
-    width:150px;
+  .cryptoCl{
+    width:250px;
     display: flex;
     align-items: center;
-    font-size: 14px;
-    color: rgb(22, 22, 22);;
+    font-size: 12px;
     text-align: center;
-  padding:0 20px;
+   
   }
+  
   .cryptoCl img{
     height: 30px;
     width: 30px;
@@ -138,27 +140,34 @@ padding-left: 5px;
     display: none;
   }
   .cryptoCl{
-    animation: animate 20s linear infinite;
-    white-space: nowrap;
+    animation: animate 30s linear infinite;
+    
+   
+    
     
  
     
+  }
+  .colorRed{
+    color: red;
+    margin-left: 8px;
+  }
+  .colorGreen{
+    color: green;
+    margin-left: 8px;
   }
 
   @keyframes animate {
     0%
     {
-      transform:translateX(200%);
+      transform:translateX(400%);
      
     }
-    50%
-    {
-      transform:translateX(-200%);
-     
-    }
+  
    
     100%{
-      transform: translateX(199%);
+      transform: translateX(-459%);
+      
     
     }
   }

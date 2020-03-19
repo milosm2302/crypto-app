@@ -17,6 +17,8 @@
 }
 .header h4{
     color:#54ACE4;
+    width: 80%;
+    margin: 0 auto;
 }
 .person{
     display: flex;
@@ -84,7 +86,7 @@
     width: 80vw;
     align-items: center;
     justify-content: center;
-    background-color: rgba(245, 252, 241, 0.521);
+
     flex-wrap: wrap;
   
     

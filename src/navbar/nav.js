@@ -18,6 +18,7 @@ import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 class Navbar extends Component {
         render(){
+            console.log(!!0);
     return(
         <div>
         <div>
@@ -29,10 +30,10 @@ class Navbar extends Component {
                         </div>
                                 <Crypto />
                         <div className='socialLogo'>
-                            <img src={Face}  alt=""/>
-                            <img src={Instagram} alt=""/>
-                            <img src={Twitter} alt=""/>
-                            <img src={YouTube} alt=""/>
+                            <a href="#"><img src={Face}  alt=""/></a>
+                            <a href="https://www.instagram.com/crypto.corner/" target="_blank"><img src={Instagram} alt=""/></a>
+                            <a href="#"><img src={Twitter} alt=""/></a>
+                            <a href="#"><img src={YouTube} alt=""/></a>
                         </div>
                 </div>
 
@@ -116,7 +117,7 @@ class Navbar extends Component {
 
 
 
-
+        
         
     </div>       
     

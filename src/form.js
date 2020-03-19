@@ -25,7 +25,7 @@ state = {
 
 sendEmail = _ => {
   const { email } = this.state;
-  fetch(`http://192.168.1.4:3002/crypto_app?recipient='milosm2302@gmail.com'&sender=${email.sender}&topic=${email.subject}&text=${email.text}`)
+  fetch(`${port}/crypto_app?recipient='milosm2302@gmail.com'&sender=${email.sender}&topic=${email.subject}&text=${email.text}`)
     .catch(err => console.error(err))
 }
 
@@ -43,21 +43,20 @@ render() {
  
   <div className="followSocImg">
  
-<img src={Instagram}  alt=""/>
+<a href="https://www.instagram.com/crypto.corner/" target="_blank"><img src={Instagram} alt=""/></a>
 <img src={Twitter}  alt=""/>
 <img src={YouTube}  alt=""/>
-<img src={Discord}  alt=""/>
+<a href="https://discord.gg/QrDjXG3 2250" target="_blank" ><img src={Discord}  alt=""/></a>
 <img src={Face}  alt=""/>
 
 
 
 </div>
 </div>
-<div className="disc">
+<a href="https://discord.gg/QrDjXG3 2250" target="_blank" className="disc">
 <FontAwesomeIcon icon={faSignInAlt} />
 <h3>JOIN OUR DISCORD SERVER</h3>
- </div>
-      
+ </a>    
       <div className='contactForm' id="form"> 
           <h2> Apply to become our client </h2>
           <br />

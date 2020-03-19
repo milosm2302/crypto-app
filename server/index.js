@@ -34,4 +34,5 @@ app.get('/crypto_app', (req,res) => {
 });
 
 // to access server run 'nodemon index.js' then click here: http://localhost:4000/
-app.listen(3002, () => console.log("Running on Port 3002")); 
+const port = process.env.PORT || 3000;
+app.listen(port); 

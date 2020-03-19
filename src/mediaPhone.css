@@ -101,11 +101,14 @@
         align-items: center;
         justify-content: space-around;
       }
+      .mobileNav>div{
+          width: 100% !important;
+      }
       .topMobile{
        
         align-items: center;
         justify-content: space-around;
-        height: 40px;
+        padding: 5px;
         overflow: hidden;
       }
       .togglenav{
@@ -131,12 +134,11 @@
            flex-direction: column;
           align-items: center;
           text-align: center;
-          justify-content: space-around;
+          justify-content: space-between;
           position: absolute;
-          top: 78px;
+          top: 75px;
           right: 0;
           z-index: 50;
-          height: 450px;
           width: 300px;
           background-color: rgb(218, 248, 246);
           transition: 250ms ease all;
@@ -145,13 +147,10 @@
          
       }
       .active a{
-          background-color: rgb(184, 233, 233, 0.2) ;
+         
           width: 100%;
           padding: 12px 0;
           border-bottom: 3px solid rgb(184, 233, 233);
-      }
-      .active a:hover{
-          background-color: rgb(184, 233, 233);
       }
       .background{
           height: 100%;
@@ -169,14 +168,19 @@
         flex-direction: column;
        align-items: center;
        justify-content: space-around;
-       height: 300px;
+       margin-top: 20px;
           width: 90%;
           cursor: pointer;
+          height: 300px;
 
       }
       .socialLogo{
           align-items: center;
           justify-content: space-around;
+          height: 100px;
+      }
+      .socialLogo img{
+          width: 30px;
       }
      
       
@@ -192,19 +196,24 @@
        .cryptoCl{
          
          
-          animation: animate 15s linear infinite;
+          animation: animate 30s linear infinite;
       }
-      .cryptoCl li{
-        width: 120px;
-        font-size: 16px;
-      }
+      
       @keyframes animate {
         0%
         {
-          transform:translateX(300%);
+          transform:translateX(350%);
+         
         }
-        100%{
-          transform: translateX(-350%);
+        100%
+        {
+          transform:translateX(-350%);
+         
+        }
+       
+        200%{
+          transform: translateX(299%);
+        
         }
       }
        .topMobile{
@@ -268,7 +277,7 @@
   }
  
 
-  @media only screen and (min-width: 890px) and (max-width: 1025px) {
+  @media only screen and (min-width: 891px) and (max-width: 1025px) {
     .mobileNav, .topMobile{
         display: none;
     }
@@ -297,10 +306,7 @@
     .wrapper{
         margin: 0;
     }
-    .about{
-        
-        
-    }
+    
     .aboutTxt{
         padding: 0;
         min-height: 20vh;

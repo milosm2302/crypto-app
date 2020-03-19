@@ -63,12 +63,12 @@ const Services = ( ) => {
                          the results of the Twitter giveaway are huge.
                         The amount of exposure, new members joining your group, new followers - is huge, since all of them are potential investors.
                         You can see an example of the Twitter Giveaway <span className="span-link"  onClick={() =>setmodalOpen(!modalOpen)}>  <div className = { modalOpen ? 'modal-open': "modal"}>
-                             <div className="modal-header">
-                                <FontAwesomeIcon icon= { faTimes } style={{cursor:'pointer', padding:'15px', width:'15px'}} onClick={() =>setmodalOpen(!modalOpen) } />
-                            </div>
-                            <div className="modal-img">
-                                <img src={Steemit} alt=""/>
-                            </div>
+                             
+                                <FontAwesomeIcon icon= { faTimes } style={{cursor:'pointer', padding:'15px', width:'15px', zIndex:'100'}} onClick={() =>setmodalOpen(!modalOpen) } />
+                            
+                            
+                              <a href="https://steemitwallet.com/@milosm2302/transfers" target="_blank">  <img src={Steemit} alt=""/></a>
+                        
 
                         </div>here</span>, usual reach is between 60k and 90k Crypto people.  
                         Also, they will Retweet almost every tweet of the project they promote, and also each other tweets,
